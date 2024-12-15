@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen Now - Spotify - Your Music, the 90s Way!</title>
+    <style>
+        body {
+            background-color: black;
+            color: lime;
+            font-family: "Comic Sans MS", cursive;
+            text-align: center;
+        }
+        h1 {
+            color: hotpink;
+            text-shadow: 2px 2px 5px purple;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            border: 3px dotted lime;
+            padding: 20px;
+        }
+        .button {
+            background-color: yellow;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid hotpink;
+            display: inline-block;
+            margin: 10px;
+        }
+        .button:hover {
+            background-color: hotpink;
+            color: yellow;
+        }
+        .footer {
+            margin-top: 20px;
+            color: white;
+            font-size: 0.8em;
+        }
+        .music-player {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Listen Now - Retro Spotify 🎶</h1>
+        <p>Get ready to relive the 90s music vibe!</p>
+
+        <div class="music-player">
+            <h2>Now Playing:</h2>
+            <audio controls>
+                <source src="your-song.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <a href="index.html" class="button">Back to Home</a>
+
+        <p class="footer">© 1999 Retro Spotify. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
